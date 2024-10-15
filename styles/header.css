@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-itens {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-itens a {
+  display: none;
+}
+
+.nav-itens img:nth-child(4) {
+  width: 2.5rem;
+}
+
+@media(width >= 80em) {
+  header {
+    padding-inline: 2rem;
+    padding-block: 1.25rem;
+  }
+
+  .nav-itens a {
+    display: block;
+  }
+  
+
+}
