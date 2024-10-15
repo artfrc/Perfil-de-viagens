@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --brand-color: #EF5F4C;
@@ -11,7 +15,17 @@
   --text-color-secondary: #6C6C6C;
 
   --font-family: "Poppins", sans-serif;
-  --font-h1: 600 2rem/1.25 var(var(--font-family));
-  --font-md: 400 .875rem/1.7 var(var(--font-family));
-  --font-sm: 400 .75rem/1.7 var(var(--font-family));
+  --font-h1: 600 2rem/1.25 var(--font-family);
+  --font-base: 400 1rem/1.5 var(--font-family)
+  --font-md: 400 .875rem/1.7 var(--font-family);
+  --font-sm: 400 .75rem/1.7 var(--font-family);
+}
+
+body {
+  font: var(--font-base);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
 }

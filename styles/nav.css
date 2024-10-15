@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links img:nth-child(4) {
+  width: 2.5rem;
+}
+
+@media(width < 80em) {
+  nav {
+    padding: 1.25rem;
+  }
+  .nav-links a {
+    display: none;
+    gap: 1rem;
+  }
+}
