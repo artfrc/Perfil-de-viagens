@@ -1,0 +1,22 @@
+.main {
+  width: 18.5rem;
+  margin: 2rem;
+}
+
+.text-main h1 {
+  margin-top: 1rem;
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
+.text-main p {
+  margin-top: .5rem;
+  font: var(--Paragraph-md);
+  color: var(--text-color-secondary);
+}
+
+@media(width >= 80em) {
+  .main {
+    width: 25.3125rem;
+  }
+}
