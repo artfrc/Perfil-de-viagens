@@ -14,9 +14,19 @@
   font: var(--Paragraph-md);
   color: var(--text-color-secondary);
 }
+.info {
+  display: flex;
+  margin-left: 2rem;
+  gap: .5rem;
+  align-items: center;
+}
+
+.info p {
+  font: var(--Paragraph-md);
+  color: var(--text-color-secondary);
+}
 
 @media(width >= 80em) {
   .main {
     width: 25.3125rem;
   }
-}
